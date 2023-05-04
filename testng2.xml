@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="API_TEST" parallel="false">
+    <test name="模块2">
+        <classes>
+            <class name="Demo3" />
+            <class name="Demo4" />
+        </classes>
+    </test> <!--test-->
+</suite> <!--suite-->
