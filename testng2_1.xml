@@ -2,8 +2,9 @@
 <suite name="API_TEST" parallel="false">
     <test name="模块2">
         <classes>
-            <class name="testng.Demo3" />
-            <class name="testng.Demo4" />
+            <class name="testng.Demo5" />
         </classes>
     </test> <!--test-->
+    <parameter name="firstName" value="尼古拉斯" />
+    <parameter name="lastName" value="凯奇" />
 </suite> <!--suite-->

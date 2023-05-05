@@ -1,7 +1,9 @@
+package testng;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Demo1 {
+public class Demo {
     @Test(dependsOnMethods = "test2",alwaysRun = true,description = "test1....")
     public void test1(){
         System.out.println("test1.....");
@@ -10,7 +12,7 @@ public class Demo1 {
     @Test
     public void test2(){
         System.out.println("test2...");
-        //Assert.assertEquals(false, true);
+        Assert.assertEquals(false, true);
     }
     @Test(enabled = false)
     public void test3(){

@@ -2,14 +2,14 @@
 <suite name="API_TEST" parallel="false">
     <test name="模块1">
             <classes>
-                <class name="Demo1" />
-                <class name="Demo2" />
+                <class name="testng.Demo1" />
+                <class name="testng.Demo2" />
             </classes>
     </test> <!--test-->
     <test name="模块2">
         <classes>
-            <class name="Demo3" />
-            <class name="Demo4" />
+            <class name="testng.Demo3" />
+            <class name="testng.Demo4" />
         </classes>
     </test> <!--test-->
 </suite> <!--suite-->

@@ -1,3 +1,5 @@
+package testng;
+
 import org.testng.annotations.*;
 
 public class Demo3 {
@@ -37,10 +39,10 @@ public class Demo3 {
     }
     @Test
     public void test1(){
-        System.out.println("Demo3...test1.....");
+        System.out.println("testng.Demo3...test1.....");
     }
     @Test
     public void test2(){
-        System.out.println("Demo3...test2...");
+        System.out.println("testng.Demo3...test2...");
     }
 }

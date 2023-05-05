@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <suite name="API_TEST" parallel="false">
-    <test name="模块2">
+    <test name="用户登录注册模块">
         <classes>
-            <class name="testng.Demo3" />
-            <class name="testng.Demo4" />
+            <class name="test_case.LoginCase" />
         </classes>
     </test> <!--test-->
 </suite> <!--suite-->
